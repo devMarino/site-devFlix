@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 
 body {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: repeat(1,2fr);
     box-sizing: border-box;
     grid-template-areas: 
     "header header"
@@ -106,20 +108,25 @@ body {
 }
 
 .template {
-    box-sizing: border-box;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 0.5;
-    flex-wrap: wrap;
-    max-width: 20%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin: 2em;
 }
 .card {
-    
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 1rem;
 }
-.card img {
+.card-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.3rem
+}
+.card-image {
     max-width: 100%;
-    height: auto;
+    height: 300px;
     object-fit: cover;
 }
 #rodape{
