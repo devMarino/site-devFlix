@@ -1,0 +1,21 @@
+#rodape{
+    grid-area: footer;
+    background-color: goldenrod;
+    text-align: center;
+    justify-content: center;
+    border-top: 8px solid #000;
+}
+
+#rodape p {
+    padding: 10px;
+    text-align: center;
+    background-color: #000000d0;
+    font-size: 1.5rem;
+    color: white;
+    font-style:unset
+}
+
+#rodape a {
+    text-decoration: none;
+    color: chocolate;
+}
