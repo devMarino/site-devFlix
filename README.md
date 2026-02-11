@@ -6,14 +6,19 @@ O devFlix é um site com temática de animes, apresentando catálogo em formato 
 
 🎯 Objetivo do Projeto
 Desenvolver um site moderno e responsivo utilizando:
-✅ HTML5 semântico ✅ CSS3 externo organizado
-✅ Flexbox e Grid Layout ✅ Media Queries
+✅ HTML5 semântico 
+✅ CSS3 externo organizado
+✅ Flexbox e Grid Layout 
+✅ Media Queries
 ✅ Estrutura de pastas profissional
 ✅ Versionamento com Git e GitHub
 
 🧠 Tecnologias Utilizadas
-- HTML5 - CSS3 - CSS Grid
-- Flexbox - Media Queries
+- HTML5
+- - CSS3
+- CSS Grid
+- Flexbox
+- Media Queries
 - Git & GitHub
   
 📌 Funcionalidades Implementadas
@@ -40,7 +45,7 @@ Desenvolver um site moderno e responsivo utilizando:
         └── responsive.css
   
 Clone o repositório:
-  - git clone https://github.com/devMarino/site-devFlix.git
+- git clone https://github.com/devMarino/site-devFlix.git
 Abra o index.html no navegador.
 🔗 Deploy
 - https://devmarino.github.io/site-devFlix/
